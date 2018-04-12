@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第一次js效果</title>
+    <style>
+        #div1{
+            height:200px;
+            width: 200px;
+            background-color: gray;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<input type="checkbox" onmouseover="document.getElementById('div1').style.display='block'"
+       onmouseout="document.getElementById('div1').style.display='none'">
+<div id="div1" >
+    文字
+</div>
+</body>
+</html>
